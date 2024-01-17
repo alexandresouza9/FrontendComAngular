@@ -16,8 +16,8 @@ const distanciaEmKm = 100;
 const litrosConsumidos = distanciaEmKm / kmPorLitros;
 const valorGasto = precoCombustivel * litrosConsumidos;
 
-console.log(litrosConsumidos);
-console.log(valorGasto);
+console.log(litrosConsumidos.toFixed(2));
+console.log(valorGasto.toFixed(2));
 
 
 
